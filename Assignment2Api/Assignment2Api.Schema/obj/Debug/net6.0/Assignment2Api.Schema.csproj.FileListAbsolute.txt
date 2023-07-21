@@ -1,0 +1,5 @@
+C:\Users\ceyda\OneDrive\Masaüstü\HW2\Assignment2Api\Assignment2Api.Schema\obj\Debug\net6.0\Assignment2Api.Schema.csproj.AssemblyReference.cache
+C:\Users\ceyda\OneDrive\Masaüstü\HW2\Assignment2Api\Assignment2Api.Schema\obj\Debug\net6.0\Assignment2Api.Schema.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ceyda\OneDrive\Masaüstü\HW2\Assignment2Api\Assignment2Api.Schema\obj\Debug\net6.0\Assignment2Api.Schema.AssemblyInfoInputs.cache
+C:\Users\ceyda\OneDrive\Masaüstü\HW2\Assignment2Api\Assignment2Api.Schema\obj\Debug\net6.0\Assignment2Api.Schema.AssemblyInfo.cs
+C:\Users\ceyda\OneDrive\Masaüstü\HW2\Assignment2Api\Assignment2Api.Schema\obj\Debug\net6.0\Assignment2Api.Schema.csproj.CoreCompileInputs.cache
