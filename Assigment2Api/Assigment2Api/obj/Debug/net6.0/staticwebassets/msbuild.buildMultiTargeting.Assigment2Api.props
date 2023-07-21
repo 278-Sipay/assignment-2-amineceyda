@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Assigment2Api.props" />
+</Project>
