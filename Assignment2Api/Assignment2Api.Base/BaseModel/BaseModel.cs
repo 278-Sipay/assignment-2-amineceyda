@@ -1,11 +1,7 @@
-﻿
+﻿namespace Assignment2Api.Base;
 
-namespace Assignment2Api.Base.BaseModel
+public class BaseModel
 {
-    public class BaseModel
-    {
-        public DateTime InsertDate { get; set; }
-        public string InsertUser { get; set; }
-    }
-
+    public DateTime InsertDate { get; set; }
+    public string InsertUser { get; set; }
 }

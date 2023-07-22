@@ -52,10 +52,6 @@
               "target": "Package",
               "version": "[2.0.143, )"
             },
-            "Grpc.AspNetCore": {
-              "target": "Package",
-              "version": "[2.55.0, )"
-            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.9, )"

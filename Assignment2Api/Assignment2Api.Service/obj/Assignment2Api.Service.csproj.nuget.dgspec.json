@@ -52,10 +52,6 @@
               "target": "Package",
               "version": "[2.0.143, )"
             },
-            "Grpc.AspNetCore": {
-              "target": "Package",
-              "version": "[2.55.0, )"
-            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.9, )"
@@ -177,10 +173,6 @@
               "target": "Package",
               "version": "[2.0.143, )"
             },
-            "Grpc.AspNetCore": {
-              "target": "Package",
-              "version": "[2.55.0, )"
-            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.9, )"
@@ -277,7 +269,14 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\ceyda\\OneDrive\\Masaüstü\\HW2\\Assignment2Api\\Assignment2Api.Base\\Assignment2Api.Base.csproj": {
+                "projectPath": "C:\\Users\\ceyda\\OneDrive\\Masaüstü\\HW2\\Assignment2Api\\Assignment2Api.Base\\Assignment2Api.Base.csproj"
+              },
+              "C:\\Users\\ceyda\\OneDrive\\Masaüstü\\HW2\\Assignment2Api\\Assignment2Api.Data\\Assignment2Api.Data.csproj": {
+                "projectPath": "C:\\Users\\ceyda\\OneDrive\\Masaüstü\\HW2\\Assignment2Api\\Assignment2Api.Data\\Assignment2Api.Data.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -297,10 +296,6 @@
             "Dapper": {
               "target": "Package",
               "version": "[2.0.143, )"
-            },
-            "Grpc.AspNetCore": {
-              "target": "Package",
-              "version": "[2.55.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -400,6 +395,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Users\\ceyda\\OneDrive\\Masaüstü\\HW2\\Assignment2Api\\Assignment2Api.Base\\Assignment2Api.Base.csproj": {
+                "projectPath": "C:\\Users\\ceyda\\OneDrive\\Masaüstü\\HW2\\Assignment2Api\\Assignment2Api.Base\\Assignment2Api.Base.csproj"
+              },
               "C:\\Users\\ceyda\\OneDrive\\Masaüstü\\HW2\\Assignment2Api\\Assignment2Api.Data\\Assignment2Api.Data.csproj": {
                 "projectPath": "C:\\Users\\ceyda\\OneDrive\\Masaüstü\\HW2\\Assignment2Api\\Assignment2Api.Data\\Assignment2Api.Data.csproj"
               },
@@ -426,10 +424,6 @@
             "Dapper": {
               "target": "Package",
               "version": "[2.0.143, )"
-            },
-            "Grpc.AspNetCore": {
-              "target": "Package",
-              "version": "[2.55.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",

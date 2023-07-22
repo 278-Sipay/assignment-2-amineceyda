@@ -1,8 +1,9 @@
 ﻿
-using Assignment2Api.Base.BaseModel;
-using Assignment2Api.Data.DBContext;
+
+using Assignment2Api.Base;
 
 namespace Assignment2Api.Data.Repository;
+
 
 public class GenericRepository<Entity> : IGenericRepository<Entity> where Entity : BaseModel
 {

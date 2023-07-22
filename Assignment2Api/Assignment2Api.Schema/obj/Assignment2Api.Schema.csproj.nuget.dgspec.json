@@ -4,14 +4,14 @@
     "C:\\Users\\ceyda\\OneDrive\\Masaüstü\\HW2\\Assignment2Api\\Assignment2Api.Schema\\Assignment2Api.Schema.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ceyda\\OneDrive\\Masaüstü\\HW2\\Assignment2Api\\Assignment2Api.Schema\\Assignment2Api.Schema.csproj": {
+    "C:\\Users\\ceyda\\OneDrive\\Masaüstü\\HW2\\Assignment2Api\\Assignment2Api.Base\\Assignment2Api.Base.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ceyda\\OneDrive\\Masaüstü\\HW2\\Assignment2Api\\Assignment2Api.Schema\\Assignment2Api.Schema.csproj",
-        "projectName": "Assignment2Api.Schema",
-        "projectPath": "C:\\Users\\ceyda\\OneDrive\\Masaüstü\\HW2\\Assignment2Api\\Assignment2Api.Schema\\Assignment2Api.Schema.csproj",
+        "projectUniqueName": "C:\\Users\\ceyda\\OneDrive\\Masaüstü\\HW2\\Assignment2Api\\Assignment2Api.Base\\Assignment2Api.Base.csproj",
+        "projectName": "Assignment2Api.Base",
+        "projectPath": "C:\\Users\\ceyda\\OneDrive\\Masaüstü\\HW2\\Assignment2Api\\Assignment2Api.Base\\Assignment2Api.Base.csproj",
         "packagesPath": "C:\\Users\\ceyda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ceyda\\OneDrive\\Masaüstü\\HW2\\Assignment2Api\\Assignment2Api.Schema\\obj\\",
+        "outputPath": "C:\\Users\\ceyda\\OneDrive\\Masaüstü\\HW2\\Assignment2Api\\Assignment2Api.Base\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -52,9 +52,250 @@
               "target": "Package",
               "version": "[2.0.143, )"
             },
-            "Grpc.AspNetCore": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[2.55.0, )"
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "System.ServiceModel.Duplex": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.ServiceModel.Federation": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.ServiceModel.Http": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.ServiceModel.NetTcp": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.ServiceModel.Security": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ceyda\\OneDrive\\Masaüstü\\HW2\\Assignment2Api\\Assignment2Api.Data\\Assignment2Api.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ceyda\\OneDrive\\Masaüstü\\HW2\\Assignment2Api\\Assignment2Api.Data\\Assignment2Api.Data.csproj",
+        "projectName": "Assignment2Api.Data",
+        "projectPath": "C:\\Users\\ceyda\\OneDrive\\Masaüstü\\HW2\\Assignment2Api\\Assignment2Api.Data\\Assignment2Api.Data.csproj",
+        "packagesPath": "C:\\Users\\ceyda\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ceyda\\OneDrive\\Masaüstü\\HW2\\Assignment2Api\\Assignment2Api.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ceyda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\ceyda\\OneDrive\\Masaüstü\\HW2\\Assignment2Api\\Assignment2Api.Base\\Assignment2Api.Base.csproj": {
+                "projectPath": "C:\\Users\\ceyda\\OneDrive\\Masaüstü\\HW2\\Assignment2Api\\Assignment2Api.Base\\Assignment2Api.Base.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.143, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "System.ServiceModel.Duplex": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.ServiceModel.Federation": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.ServiceModel.Http": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.ServiceModel.NetTcp": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.ServiceModel.Security": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ceyda\\OneDrive\\Masaüstü\\HW2\\Assignment2Api\\Assignment2Api.Schema\\Assignment2Api.Schema.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ceyda\\OneDrive\\Masaüstü\\HW2\\Assignment2Api\\Assignment2Api.Schema\\Assignment2Api.Schema.csproj",
+        "projectName": "Assignment2Api.Schema",
+        "projectPath": "C:\\Users\\ceyda\\OneDrive\\Masaüstü\\HW2\\Assignment2Api\\Assignment2Api.Schema\\Assignment2Api.Schema.csproj",
+        "packagesPath": "C:\\Users\\ceyda\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ceyda\\OneDrive\\Masaüstü\\HW2\\Assignment2Api\\Assignment2Api.Schema\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ceyda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\ceyda\\OneDrive\\Masaüstü\\HW2\\Assignment2Api\\Assignment2Api.Base\\Assignment2Api.Base.csproj": {
+                "projectPath": "C:\\Users\\ceyda\\OneDrive\\Masaüstü\\HW2\\Assignment2Api\\Assignment2Api.Base\\Assignment2Api.Base.csproj"
+              },
+              "C:\\Users\\ceyda\\OneDrive\\Masaüstü\\HW2\\Assignment2Api\\Assignment2Api.Data\\Assignment2Api.Data.csproj": {
+                "projectPath": "C:\\Users\\ceyda\\OneDrive\\Masaüstü\\HW2\\Assignment2Api\\Assignment2Api.Data\\Assignment2Api.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.143, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",

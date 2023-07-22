@@ -1,29 +1,32 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Assignment2Api.Data.Domain;
+using Microsoft.EntityFrameworkCore;
 
 
-namespace Assignment2Api.Data.DBContext
+namespace Assignment2Api.Data;
+
+public class SimDbContext : DbContext
 {
-    public class SimDbContext : DbContext
+    public SimDbContext(DbContextOptions<SimDbContext> options) : base(options)
     {
-        public SimDbContext(DbContextOptions<SimDbContext> options) : base(options)
-        {
-
-        }
-
-        // dbset
-
-        public DbSet<Transaction> Transaction { get; set; }
-
-
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-
-            modelBuilder.ApplyConfiguration(new TransactionConfiguration());
-
-            base.OnModelCreating(modelBuilder);
-        }
-
-
 
     }
+
+
+    // dbset
+    public DbSet<Customer>Customers { get; set; }
+    public DbSet<Account> Account { get; set; }
+    public DbSet<Transaction> Transaction { get; set; }
+
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.ApplyConfiguration(new AccountConfiguration());
+        modelBuilder.ApplyConfiguration(new CustomerConfiguration());
+        modelBuilder.ApplyConfiguration(new TransactionConfiguration());
+
+        base.OnModelCreating(modelBuilder);
+    }
+
+
+
 }

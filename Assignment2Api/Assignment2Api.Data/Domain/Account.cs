@@ -1,27 +1,57 @@
-﻿
-using Assignment2Api.Base.BaseModel;
+﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations.Schema;
+using Assignment2Api.Base;
 
-namespace Assignment2Api.Data.Domain
+namespace Assignment2Api.Data.Domain;
+
+[Table("Account", Schema = "dbo")]
+public class Account : BaseModel
 {
-    [Table("Account", Schema = "dbo")]
-    public class Account : BaseModel
+    //PK
+    public int AccountNumber { get; set; }
+
+
+    public int CustomerNumber { get; set; }
+    public virtual Customer Customer { get; set; }
+
+    public decimal Balance { get; set; }
+    public string Name { get; set; }
+    public DateTime OpenDate { get; set; }
+    public string CurrencyCode { get; set; } 
+    public bool IsActive { get; set; }
+
+
+    public virtual List<Transaction> Transactions { get; set; }
+}
+
+
+
+public class AccountConfiguration : IEntityTypeConfiguration<Account>
+{
+    public void Configure(EntityTypeBuilder<Account> builder)
     {
-        //PK
-        public int AccountNumber { get; set; }
+        builder.Property(x => x.AccountNumber).IsRequired(true).ValueGeneratedNever();
+        builder.HasIndex(x => x.AccountNumber).IsUnique(true);
+        builder.HasKey(x => x.AccountNumber);
 
 
-        public int CustomerNumber { get; set; }
-        public virtual Customer Customer { get; set; }
+        builder.Property(x => x.InsertUser).IsRequired(true).HasMaxLength(50);
+        builder.Property(x => x.InsertDate).IsRequired(true);
 
-        public decimal Balance { get; set; }
-        public string Name { get; set; }
-        public DateTime OpenDate { get; set; }
-        public string CurrencyCode { get; set; }
-        public bool IsActive { get; set; }
+        builder.Property(x => x.CurrencyCode).IsRequired(true).HasMaxLength(4);
+        builder.Property(x => x.Balance).IsRequired(true).HasPrecision(15, 4).HasDefaultValue(0);
+        builder.Property(x => x.CustomerNumber).IsRequired(true);
+        builder.Property(x => x.IsActive).IsRequired(true).HasDefaultValue(true);
+        builder.Property(x => x.Name).IsRequired(true).HasMaxLength(100);
+        builder.Property(x => x.OpenDate).IsRequired(true);
 
+        builder.HasIndex(x => x.CustomerNumber);
 
-        public virtual List<Transaction> Transactions { get; set; }
+        builder.HasMany(x => x.Transactions)
+            .WithOne(x => x.Account)
+            .HasForeignKey(x => x.AccountNumber)
+            .IsRequired(true);
     }
 
 }

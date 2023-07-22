@@ -3,3 +3,17 @@ C:\Users\ceyda\OneDrive\Masaüstü\HW2\Assignment2Api\Assignment2Api.Schema\obj\
 C:\Users\ceyda\OneDrive\Masaüstü\HW2\Assignment2Api\Assignment2Api.Schema\obj\Debug\net6.0\Assignment2Api.Schema.AssemblyInfoInputs.cache
 C:\Users\ceyda\OneDrive\Masaüstü\HW2\Assignment2Api\Assignment2Api.Schema\obj\Debug\net6.0\Assignment2Api.Schema.AssemblyInfo.cs
 C:\Users\ceyda\OneDrive\Masaüstü\HW2\Assignment2Api\Assignment2Api.Schema\obj\Debug\net6.0\Assignment2Api.Schema.csproj.CoreCompileInputs.cache
+C:\Users\ceyda\OneDrive\Masaüstü\HW2\Assignment2Api\Assignment2Api.Schema\bin\Debug\net6.0\Assignment2Api.Schema.deps.json
+C:\Users\ceyda\OneDrive\Masaüstü\HW2\Assignment2Api\Assignment2Api.Schema\bin\Debug\net6.0\Assignment2Api.Schema.runtimeconfig.json
+C:\Users\ceyda\OneDrive\Masaüstü\HW2\Assignment2Api\Assignment2Api.Schema\bin\Debug\net6.0\Assignment2Api.Schema.dll
+C:\Users\ceyda\OneDrive\Masaüstü\HW2\Assignment2Api\Assignment2Api.Schema\bin\Debug\net6.0\Assignment2Api.Schema.pdb
+C:\Users\ceyda\OneDrive\Masaüstü\HW2\Assignment2Api\Assignment2Api.Schema\bin\Debug\net6.0\Assignment2Api.Base.dll
+C:\Users\ceyda\OneDrive\Masaüstü\HW2\Assignment2Api\Assignment2Api.Schema\bin\Debug\net6.0\Assignment2Api.Data.dll
+C:\Users\ceyda\OneDrive\Masaüstü\HW2\Assignment2Api\Assignment2Api.Schema\bin\Debug\net6.0\Assignment2Api.Base.pdb
+C:\Users\ceyda\OneDrive\Masaüstü\HW2\Assignment2Api\Assignment2Api.Schema\bin\Debug\net6.0\Assignment2Api.Data.pdb
+C:\Users\ceyda\OneDrive\Masaüstü\HW2\Assignment2Api\Assignment2Api.Schema\obj\Debug\net6.0\Assignment2Api.Schema.csproj.CopyComplete
+C:\Users\ceyda\OneDrive\Masaüstü\HW2\Assignment2Api\Assignment2Api.Schema\obj\Debug\net6.0\Assignment2Api.Schema.dll
+C:\Users\ceyda\OneDrive\Masaüstü\HW2\Assignment2Api\Assignment2Api.Schema\obj\Debug\net6.0\refint\Assignment2Api.Schema.dll
+C:\Users\ceyda\OneDrive\Masaüstü\HW2\Assignment2Api\Assignment2Api.Schema\obj\Debug\net6.0\Assignment2Api.Schema.pdb
+C:\Users\ceyda\OneDrive\Masaüstü\HW2\Assignment2Api\Assignment2Api.Schema\obj\Debug\net6.0\Assignment2Api.Schema.genruntimeconfig.cache
+C:\Users\ceyda\OneDrive\Masaüstü\HW2\Assignment2Api\Assignment2Api.Schema\obj\Debug\net6.0\ref\Assignment2Api.Schema.dll

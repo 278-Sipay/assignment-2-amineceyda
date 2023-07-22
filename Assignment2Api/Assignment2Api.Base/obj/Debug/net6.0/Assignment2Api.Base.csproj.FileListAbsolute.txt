@@ -1,5 +1,14 @@
+C:\Users\ceyda\OneDrive\Masaüstü\HW2\Assignment2Api\Assignment2Api.Base\bin\Debug\net6.0\Assignment2Api.Base.deps.json
+C:\Users\ceyda\OneDrive\Masaüstü\HW2\Assignment2Api\Assignment2Api.Base\bin\Debug\net6.0\Assignment2Api.Base.dll
+C:\Users\ceyda\OneDrive\Masaüstü\HW2\Assignment2Api\Assignment2Api.Base\bin\Debug\net6.0\Assignment2Api.Base.pdb
 C:\Users\ceyda\OneDrive\Masaüstü\HW2\Assignment2Api\Assignment2Api.Base\obj\Debug\net6.0\Assignment2Api.Base.csproj.AssemblyReference.cache
 C:\Users\ceyda\OneDrive\Masaüstü\HW2\Assignment2Api\Assignment2Api.Base\obj\Debug\net6.0\Assignment2Api.Base.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ceyda\OneDrive\Masaüstü\HW2\Assignment2Api\Assignment2Api.Base\obj\Debug\net6.0\Assignment2Api.Base.AssemblyInfoInputs.cache
 C:\Users\ceyda\OneDrive\Masaüstü\HW2\Assignment2Api\Assignment2Api.Base\obj\Debug\net6.0\Assignment2Api.Base.AssemblyInfo.cs
 C:\Users\ceyda\OneDrive\Masaüstü\HW2\Assignment2Api\Assignment2Api.Base\obj\Debug\net6.0\Assignment2Api.Base.csproj.CoreCompileInputs.cache
+C:\Users\ceyda\OneDrive\Masaüstü\HW2\Assignment2Api\Assignment2Api.Base\obj\Debug\net6.0\Assignment2Api.Base.dll
+C:\Users\ceyda\OneDrive\Masaüstü\HW2\Assignment2Api\Assignment2Api.Base\obj\Debug\net6.0\refint\Assignment2Api.Base.dll
+C:\Users\ceyda\OneDrive\Masaüstü\HW2\Assignment2Api\Assignment2Api.Base\obj\Debug\net6.0\Assignment2Api.Base.pdb
+C:\Users\ceyda\OneDrive\Masaüstü\HW2\Assignment2Api\Assignment2Api.Base\obj\Debug\net6.0\ref\Assignment2Api.Base.dll
+C:\Users\ceyda\OneDrive\Masaüstü\HW2\Assignment2Api\Assignment2Api.Base\bin\Debug\net6.0\Assignment2Api.Base.runtimeconfig.json
+C:\Users\ceyda\OneDrive\Masaüstü\HW2\Assignment2Api\Assignment2Api.Base\obj\Debug\net6.0\Assignment2Api.Base.genruntimeconfig.cache

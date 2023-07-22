@@ -1,10 +1,6 @@
-﻿
+﻿namespace Assignment2Api.Base;
 
-namespace Assignment2Api.Base.BaseModel
+public class IdBaseModel : BaseModel
 {
-    public class IdBaseModel : BaseModel
-    {
-        public int Id { get; set; }
-    }
-
+    public int Id { get; set; }
 }
